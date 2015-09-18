@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800,100,200,600);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
 /*!
@@ -26,6 +26,17 @@ a {
 a:hover {
 	text-decoration: none;
 	color: #999;
+}
+
+.logo {
+	margin-top: 30px;
+	margin-left: 70px;
+	padding-bottom: 50px;
+}
+
+.logo2 {
+	margin-left: 150px;
+	padding-bottom: 50px;
 }
 
 /* ---------------------------------------------- /*
@@ -273,17 +284,26 @@ textarea.form-control {
 
 .pfblock-title{
     font-weight: 800;
+	text-align: center;
 }
 
 .pfblock-subtitle {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 18px;
+	text-align: center;
+}
+
+.pfblock-connect {
+	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	text-align: left;
 }
 
 .pfblock-line {
-	background: rgba(135, 135, 135, 0.5);
-	width: 100px;
+	background: black;
+	width: 500px;
 	height: 1px;
 	margin: 30px auto;
 }
@@ -343,7 +363,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/cover.jpg);
+	background: url(../images/night-city-landscape-image-wallpaper.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -352,20 +372,36 @@ textarea.form-control {
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
 			background-size: cover;
-	padding: 0;
+
 }
 
-.home-overlay {
-    background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("../images/pattern.png");
-    background-repeat: repeat;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 0;
+#connect {
+	background: url(../images/Opera-Background-Colored-Lights-980x1000.jpg);
+	background-color: #222;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
 }
+
+#experience {
+	background: url(../images/clean_floor_1305.jpg);
+	background-color: #222;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+
 
 .intro {
 	position: absolute;
@@ -388,6 +424,14 @@ textarea.form-control {
 .start {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
 	font-size: 16px;
+	font-style: normal;
+	text-transform: none;
+	margin: 15px 0;
+}
+
+.startbigger {
+	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-size: 70px;
 	font-style: normal;
 	text-transform: none;
 	margin: 15px 0;
@@ -483,6 +527,7 @@ textarea.form-control {
 	list-style: none;
 	padding: 0;
 	margin: 0 0 20px;
+
 }
 
 .social-links li {
@@ -491,22 +536,22 @@ textarea.form-control {
 }
 
 .social-links a {
-	width: 36px;
-	height: 36px;
+	width: 50px;
+	height: 50px;
 	display: block;
 	line-height: 35px;
 	text-align: center;
-	border: 1px solid rgba(255, 255, 255, .1);
+	border: 1px solid white;
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 			border-radius: 3px;
-	font-size: 14px;
-	color: rgba(255, 255, 255, .2);
+	font-size: 25px;
+	color: white;
 }
 
 .social-links a:hover {
 	border: 1px solid rgba(255, 255, 255, .5);
-	color: rgba(255, 255, 255, .8);
+	color: blue;
 }
 
 /* ---------------------------------------------- /*
@@ -554,7 +599,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+    font-family: "Raleway";
 }
 
 .navbar-custom .dropdown-menu {
@@ -615,7 +660,7 @@ textarea.form-control {
 	left: 50%;
 	bottom: 40px;
 	border: 2px solid #fff;
-	border-radius: 50%;
+	border-radius: 75%;
 	height: 50px;
 	width: 50px;
 	margin-left: -15px;
@@ -738,13 +783,7 @@ textarea.form-control {
 	cursor: pointer;
 }
 
-.grid figure img {
-	position: relative;
-	display: block;
-	min-height: auto;
-	max-width: 100%;
-	opacity: 0.8;
-}
+
 
 .grid figure figcaption {
 	padding: 2em;
