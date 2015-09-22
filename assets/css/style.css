@@ -431,7 +431,8 @@ textarea.form-control {
 
 .startbigger {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
-	font-size: 70px;
+	font-size: 65px;
+	font-weight: 100;
 	font-style: normal;
 	text-transform: none;
 	margin: 15px 0;
@@ -582,7 +583,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
-	font-size: 11px;
+	font-size: 9px;
 	letter-spacing: 3px;
 	color: #222;
 }
@@ -593,7 +594,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #E7746F;
+	color: blue;
 }
 
 .navbar-custom .navbar-brand {
