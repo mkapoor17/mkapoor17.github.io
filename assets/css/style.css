@@ -242,6 +242,7 @@ textarea.form-control {
 
 .pfblock {
 	padding: 120px 0 100px;
+	background: white;
 }
 
 .pfblock-gray {
@@ -249,7 +250,7 @@ textarea.form-control {
 }
 
 .pfblock-image {
-	padding: 0;
+	padding: 50px 50px 50px 50px;
 }
 
 .calltoaction h1,
@@ -265,7 +266,7 @@ textarea.form-control {
 .pfblock-image h4,
 .pfblock-image h5,
 .pfblock-image h6 {
-	color: #fff;
+	color: white;
 }
 
 .pfblock-header {
@@ -364,7 +365,6 @@ textarea.form-control {
 
 #home {
 	background: url(../images/night-city-landscape-image-wallpaper.jpg);
-	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
