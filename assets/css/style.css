@@ -245,6 +245,11 @@ textarea.form-control {
 	background: white;
 }
 
+.pfblock2 {
+	padding: 40px 0 200px;
+	background: white;
+}
+
 .pfblock-gray {
 	background: #f5f5f5;
 }
@@ -286,6 +291,12 @@ textarea.form-control {
 .pfblock-title{
     font-weight: 800;
 	text-align: center;
+}
+
+.pfblock-title{
+	font-weight: 800;
+	text-align: center;
+	padding: 0 0 40px;
 }
 
 .pfblock-subtitle {
@@ -423,7 +434,7 @@ textarea.form-control {
 
 .start {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
-	font-size: 16px;
+	font-size: 25px;
 	font-style: normal;
 	text-transform: none;
 	margin: 15px 0;
@@ -431,7 +442,7 @@ textarea.form-control {
 
 .startbigger {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
-	font-size: 65px;
+	font-size: 80px;
 	font-weight: 100;
 	font-style: normal;
 	text-transform: none;
