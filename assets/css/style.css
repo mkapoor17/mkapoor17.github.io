@@ -258,6 +258,19 @@ textarea.form-control {
 	padding: 50px 50px 50px 50px;
 }
 
+.computer-background {
+	background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(../images/clean_floor_1305.jpg);
+	width: 100%;
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+}
+
+
 .calltoaction h1,
 .calltoaction h2,
 .calltoaction h3,
@@ -387,7 +400,7 @@ textarea.form-control {
 }
 
 #connect {
-	background: url(../images/Opera-Background-Colored-Lights-980x1000.jpg);
+	background: url(../images/clean_floor_1305.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
